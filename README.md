@@ -1,1 +1,3 @@
 # aws-devops-Project
+
+About the Project; This example demonstrates how to create a VPC that you can use for servers in a production environment. To improve resiliency, you deploy the servers in two availability zones, by using an auto scaling group and an application load balancer. For additional security, you deploy the servers in private subnets. The servers receive requests through the load balancer. The servers can connect to the internet by using a NAT gateway. To improve resiliency, you deploy the NAT gateway in both Availability zones.
